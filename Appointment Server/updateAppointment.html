@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <title>Appointment Manager</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="jquery/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1 id="heading">Appointment Manager</h1>
+    <div id="linksBox">
+        <a href="/addAppointment" style="cursor: pointer;">Add Appointment</a>
+        <br>
+        <br>
+        <a href="/deleteAppointment" style="cursor: pointer;">Delete Appointment</a>
+        <br>
+        <br>
+        <a href="/updateaApointment" style="cursor: pointer;">Update Appointment</a>
+        <br>
+        <br>
+        <a href="/" style="cursor: pointer;">View Appointment</a>
+        <br>
+        <br>
+    </div>
+    <h1 id="contentHeading">Update Appointment</h1>
+    <div id="contentBox">
+        <form action="">
+            <input type="number" placeholder="Appointment ID" name="">
+            <input type="text" placeholder="dd/mm/yyyy" name="">
+            <input type="text" placeholder="hh:mm" name="">
+            <input type="text" placeholder="Description" name="">
+            <input type="text" placeholder="With whom" name="">
+            <input type="submit" value="Update">
+        </form>
+    </div>
+</body>
+</html>
